@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cibele Maciel | Psicóloga</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
@@ -120,6 +121,7 @@
     <div id="mobile-menu" class="md:hidden bg-cream border-t border-cream-dark/30">
       <nav class="flex flex-col px-5 py-4 gap-4 font-body text-warm text-base">
         <a href="#sobre"     onclick="closeMenu()" class="hover:text-sage transition-colors py-1">Sobre</a>
+        <a href="#especialidades" onclick="closeMenu()" class="hover:text-sage transition-colors py-1">Especialidades</a>
         <a href="#servicos"  onclick="closeMenu()" class="hover:text-sage transition-colors py-1">Serviços</a>
         <a href="#abordagem" onclick="closeMenu()" class="hover:text-sage transition-colors py-1">Abordagem</a>
         <a href="#contato"   onclick="closeMenu()" class="hover:text-sage transition-colors py-1">Contato</a>
@@ -232,6 +234,40 @@
       </div>
     </div>
   </section>
+
+
+  <!-- ╔══════════════════════════════╗
+       ║      Especialidades          ║
+       ╚══════════════════════════════╝ -->
+  <section id="especialidades" class="py-16 md:py-24 bg-white">
+  <div class="max-w-6xl mx-auto px-5">
+    
+    <div class="text-center mb-12">
+      <p class="font-body text-sage font-medium tracking-widest text-xs uppercase mb-3">Conheça mais</p>
+      <h2 class="font-display text-3xl md:text-5xl font-light text-warm-dark">Especialidades</h2>
+    </div>
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-5xl mx-auto">
+      <div class="bg-bg-dark p-8 rounded-[3rem] flex flex-col gap-4 border border-cream shadow-sm">
+        <div class="w-12 h-12 bg-sage/15 rounded-2xl flex items-center justify-center text-sage">
+           <i class="fas fa-puzzle-piece"></i> </div>
+        <h3 class="font-display text-xl text-warm-dark">TEA</h3>
+        <p class="font-body text-warm-light text-base leading-relaxed">
+          Acompanhamento especializado no Transtorno do Espectro Autista, focado no desenvolvimento de competências e autonomia.
+        </p>
+      </div>
+
+      <div class="bg-bg-dark p-8 rounded-[3rem] flex flex-col gap-4 border border-cream shadow-sm">
+        <div class="w-12 h-12 bg-sage/15 rounded-2xl flex items-center justify-center text-sage">
+           <i class="fas fa-brain"></i> </div>
+        <h3 class="font-display text-xl text-warm-dark">TDAH e TOD</h3>
+        <p class="font-body text-warm-light text-base leading-relaxed">
+          Suporte terapêutico especializado para Transtorno de Déficit de Atenção/Hiperatividade e Transtorno Opositor Desafiador.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
 
   <!-- ╔══════════════════════════════╗
